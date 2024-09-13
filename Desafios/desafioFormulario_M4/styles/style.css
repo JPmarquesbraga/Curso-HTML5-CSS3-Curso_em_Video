@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, beige, wheat);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    width: 40vw;
+    position: absolute;
+    box-shadow: 2px black;
+    background-color: white;
+    display: block;
+    top: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form > p {
+    background-color: rgb(158, 40, 4);
+    padding: 2px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+span {
+    color: white;
+    display: block;
+}
+
+input {
+    width: 92%;
+}
+
+input#entra {
+    background-color: rgb(91, 180, 150);
+    color: white;
+}
+
+label {
+    background-color: black;
+}
+
+label span {
+    background-color: orangered;
+}
+
+p#acessar {
+    background-color: white;
+}
