@@ -72,7 +72,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     body {
         background-image: linear-gradient(to bottom, rgb(243, 243, 210), rgb(193, 118, 228));
     }
