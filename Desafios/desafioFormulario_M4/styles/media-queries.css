@@ -19,10 +19,10 @@ Grandes telas: acima de 1200px
         position: relative;
         width: 80%;
         height: 30%;
-        max-height: 300px;
+        max-height: 250px;
         min-height: 250px;
         max-width: 670px;
-        min-width: 610px;
+        min-width: 625px;
     }
 
     section#imagem {
@@ -58,15 +58,80 @@ Grandes telas: acima de 1200px
 
     input#entra {
         height: 35px;
-        margin-bottom: 5px;
         margin-top: -5px;
     }
 
     input#reset {
         height: 35px;
     }
+
+    a {
+        margin-top: -10px;
+        font-size: medium;
+        width: 96.4%;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    
+    body {
+        background-image: linear-gradient(to bottom, rgb(243, 243, 210), rgb(193, 118, 228));
+    }
+
+    main {
+        position: relative;
+        width: 80%;
+        height: 50%;
+        max-height: 350px;
+        min-height: 350px;
+        max-width: 870px;
+        min-width: 770px;
+    }
+
+    section#imagem {
+        float: right;
+        width: 44%;
+    }
+
+    section#form {
+        position: absolute;
+        float: left;
+        width: 55%;
+        height: 90%;
+    }
+
+    img {
+        height: 350px;
+        border-radius: 0px 10px 10px 0px;
+        object-fit: cover;
+        object-position: bottom center;
+    }
+
+    h1 {
+        font-size: 2.0em;
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+
+    input {
+        width: 90%;
+        padding-left: 4px;
+    }
+
+    input#entra {
+        height: 35px;
+        transform: translatey(-20%);
+    }
+
+    input#reset {
+        height: 35px;
+        transform: translatey(-25%);
+    }
+
+    a {
+        width: 96.5%;
+        margin-top: -5px;
+    }
 }
